@@ -1,5 +1,5 @@
 # Progjar-1
-
+## Rihan Farih Bunyamin - 05111940000165
 Tugas 1.
 
 Buat client-server yang mengimplementasikan, perintah:
