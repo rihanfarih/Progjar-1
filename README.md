@@ -4,30 +4,33 @@ Tugas 1.
 
 Buat client-server yang mengimplementasikan, perintah:
 
-py namafile.py server 127.0.0.1
-py namafile.py client 127.0.0.1
+* py namafile.py server 127.0.0.1
+* py namafile.py client 127.0.0.1
 
-> ping hallooo woorldddddd ....
-terima : hallooo woorldddddd ....
+* ping hallooo woorldddddd ....
 
-> ls
-ws_tcp.py
+  ```terima : hallooo woorldddddd ....```
 
-> ls /etc/*
-passwd
-group
-....
+* ls
+  ```ws_tcp.py```
 
-> get /etc/passwd passwd2
-fetch:/etc/passwd size: 2341 lokal:passwd2
+* ls /etc/*
 
-> get /etc/passwd abc
-fetch:/etc/passwd size: 2341 lokal:abc
+ 
+  passwd
+  group
+  .... 
+  
 
-> quit
-server shutdown..
-client shutdown..
+* get /etc/passwd passwd2
+  ```fetch:/etc/passwd size: 2341 lokal:passwd2```
 
+* get /etc/passwd abc
+ ``` fetch:/etc/passwd size: 2341 lokal:abc```
+* quit
+ ``` server shutdown..
+  client shutdown..
+```
 Hari ini:
 
 *) variable length paket 
